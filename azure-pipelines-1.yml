@@ -11,13 +11,13 @@ pool:
 
 steps:
 - script: 
-   echo "Hello World" &&
-   echo "This is frustrating" &&
-   pwd
+    cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/ &&
+    pwd &&
+    sh './gradlew test'
   displayName: 'Build project'
 
 - script:
-    cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/
-    pwd
+    cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/ &&
+    pwd &&
     sh './gradlew test'
   displayName: 'Test project'

@@ -13,8 +13,12 @@ steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
-- script: sh '/Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/gradlew assemble'
+- script: 
+   sh 'cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/''
+   sh './gradlew assemble'
   displayName: 'Build project'
 
-- script: sh '/Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/gradlew test'
+- script:
+    sh 'cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/gradlew'
+    sh './gradlew test'
   displayName: 'Test project'

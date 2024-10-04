@@ -11,7 +11,6 @@ pool:
 
 steps:
 - script: sh '''
-   pwd &&
    cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/ &&
    ./gradlew assemble
    '''

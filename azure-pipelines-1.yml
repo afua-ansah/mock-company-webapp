@@ -11,8 +11,8 @@ pool:
 
 steps:
 - script: 
-   echo "Hello World"
-   echo "This is frustrating"
+   echo "Hello World" &&
+   echo "This is frustrating" &&
    pwd
   displayName: 'Build project'
 

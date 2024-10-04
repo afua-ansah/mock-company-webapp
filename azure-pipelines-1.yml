@@ -10,7 +10,8 @@ pool:
   name: local 
 
 steps:
-- script: sh '''
+- script: 
+   sh '''
    echo "Hello World"
    echo "This is frustrating"
    '''

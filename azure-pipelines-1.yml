@@ -13,6 +13,7 @@ steps:
 - script: 
    echo "Hello World"
    echo "This is frustrating"
+   pwd
   displayName: 'Build project'
 
 - script:

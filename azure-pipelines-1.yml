@@ -12,6 +12,7 @@ pool:
 steps:
 - script: sh '''
    echo "Hello World"
+   echo "This is frustrating"
    '''
   displayName: 'Build project'
 

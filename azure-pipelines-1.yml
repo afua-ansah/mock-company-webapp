@@ -14,7 +14,7 @@ steps:
   displayName: 'Run a one-line script'
 
 - script: 
-   sh 'cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/''
+   sh 'cd /Users/afuaansah/Desktop/forage_dev/accenture_project/mock-company-webapp/'
    sh './gradlew assemble'
   displayName: 'Build project'
 
